@@ -1,6 +1,6 @@
 require 'data_parser'
 require 'help'
-require 'queue'
+require 'event_reporter/queue'
 require 'search'
 
 module EventReporter

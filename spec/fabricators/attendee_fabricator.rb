@@ -1,4 +1,4 @@
-Fabricate(:attendee) do 
+# Fabricate(:attendee) do 
   
   
-end
+# end

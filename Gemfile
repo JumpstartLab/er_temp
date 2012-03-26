@@ -10,5 +10,5 @@ end
 
 group :test, :development do
   gem 'fabrication'
-  gem 'faker'
+  gem 'faker', :git => "git://github.com/jcasimir/faker.git"
 end

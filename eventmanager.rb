@@ -1,6 +1,7 @@
 $LOAD_PATH << './lib'
 require 'csv'
 require 'attendee'
+require 'command'
 
 class EventManager
   CSV_OPTIONS = {:headers => true, :header_converters => :symbol}
