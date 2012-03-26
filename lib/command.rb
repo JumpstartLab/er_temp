@@ -15,6 +15,14 @@ module EventReporter
                     "queue save to" => "exports queue to a CSV", 
                     "find" => "load the queue with matching records"}
 
+    def self.queue
+      @queue ||= Queue.new
+    end
+
+    def self.queue=(input)
+      @queue = input
+    end
+
     def self.valid?(command)
       ALL_COMMANDS.keys.include?(command)
     end
@@ -23,7 +31,7 @@ module EventReporter
       if command == "load" && DataParser.valid_parameters?(parameters)
         DataParser.load(parameters)          
       elsif command == "queue" && Queue.valid_parameters?(parameters)
-        Queue.new.call(parameters)
+        queue.call(parameters)
       elsif command == "help" && Help.valid_parameters?(parameters)
         Help.for(parameters)
       elsif command == "find" && Search.valid_parameters?(parameters)

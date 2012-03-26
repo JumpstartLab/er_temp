@@ -8,7 +8,7 @@ module EventReporter
 
     def call(params)
       if params[0] == "count"
-        data.count    
+        data.count
       else
         data.clear
       end
