@@ -7,3 +7,7 @@ group :test do
   gem "growl"
   gem 'simplecov'
 end
+
+group :test, :development do
+  gem 'fabrication'
+end

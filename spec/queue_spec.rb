@@ -48,7 +48,7 @@ describe EventReporter::Queue do
   describe "#call" do
     context "when the command is count" do
       let(:command) { ["count"] }
-      let(:queue)   { EventReporter::Queue.new }
+      let(:queue)   { Fabricate(:queue) }
 
       context "when the queue is empty" do
         it "returns 0" do
