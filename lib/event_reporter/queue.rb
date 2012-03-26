@@ -1,6 +1,6 @@
 module EventReporter
   class Queue
-    attr_accessor :name
+    attr_accessor :name, :valid
 
     def <<(item)
       data << item

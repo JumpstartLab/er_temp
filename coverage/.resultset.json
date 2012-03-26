@@ -137,12 +137,15 @@
         null,
         1,
         1,
+        2,
         3,
-        3,
+        2,
         null,
         1,
         1,
         1,
+        1,
+        0,
         null,
         null,
         null,
@@ -192,8 +195,8 @@
         null,
         null,
         1,
-        5,
-        3,
+        4,
+        2,
         null,
         2,
         null,
@@ -206,7 +209,7 @@
         1,
         null,
         1,
-        11,
+        10,
         null,
         null,
         1,
@@ -226,10 +229,18 @@
       ],
       "/Users/jcasimir/Projects/event_reporter/spec/fabricators/queue_fabricator.rb": [
         1,
+        null,
+        1,
+        4,
+        1,
+        null,
+        null,
+        1,
+        1,
         1,
         null
       ]
     },
-    "timestamp": 1332770465
+    "timestamp": 1332771811
   }
 }

@@ -1,0 +1,4 @@
+Fabricate(:attendee) do 
+  
+  
+end
